@@ -12,8 +12,8 @@
 		"db:migrate:prod": "wrangler d1 migrations apply d1-demo-prod-db --remote",
 		"db:migrate:preview": "wrangler d1 migrations apply --env preview d1-demo-preview-db --remote",
 		"db:studio:local": "LOCAL_DB_PATH=$(find .wrangler/state/v3/d1/miniflare-D1DatabaseObject -type f -name '*.sqlite' -print -quit) drizzle-kit studio",
-		"db:studio:preview": "source .drizzle.env && DB_ID='yyyyyyyy-yyyy-yyyy-yyyy-yyyyyyyyyyyy' drizzle-kit studio",
-		"db:studio:prod": "source .drizzle.env && DB_ID='xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx' drizzle-kit studio"
+		"db:studio:preview": "source .drizzle.env && DB_ID='9635f58d-6199-49ed-9984-98373201d005' drizzle-kit studio",
+		"db:studio:prod": "source .drizzle.env && DB_ID='b0a8f22c-44ab-4b7c-9e1a-899d13651006' drizzle-kit studio"
   },
   "dependencies": {
     "@astrojs/cloudflare": "^12.1.0",
